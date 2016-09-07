@@ -93,9 +93,9 @@
         <input type="hidden" name="rows" value="6"/>
         <input type="hidden" name="columns" value="6"/>
         <table id="grid">
-            <c:forEach begin="0" var="row" end="2">
+            <c:forEach begin="0" var="row" end="5">
                 <tr>
-                    <c:forEach begin="0" var="column" end="2">
+                    <c:forEach begin="0" var="column" end="5">
                         <td><input name="cell_${row}_${column}" type="checkbox"/></td>
                     </c:forEach>
                 </tr>
