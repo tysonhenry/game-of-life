@@ -41,7 +41,7 @@ public class WhenCreatingANewGame {
         ModelAndView homeView = controller.firstGeneration(3, 5, request);
 
         // Asserting false everytime? That's interesting..
-        assert "CHICO LOOK HERE" == "FALSE";
+        // assert "CHICO LOOK HERE" == "FALSE";
 
         assertThat((Integer) homeView.getModel().get("rows"), is(3));
         assertThat((Integer) homeView.getModel().get("columns"), is(5));
