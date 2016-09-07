@@ -29,7 +29,7 @@ what can be done with modern software engineering tools.
 
 ### Step 2: Forking, Cloning and Building Your Application
 1. Get a copy of the code for the exercise
-   1. Fork the application repository at [http://github.com/liatrio/game-of-life](github.com/liatrio/game-of-life) to one or more of your team members' Github Accounts
+   1. Fork the application repository at [https://github.com/liatrio/game-of-life](github.com/liatrio/game-of-life) to one or more of your team members' Github Accounts
    2. If you don't have a Github account you should create one now
 2. See your repository build on our build server
    1. Browse to [jenkins.chico.liatr.io](jenkins.chico.liatr.io) and sign in using the information given to you
