@@ -90,8 +90,8 @@
 <div class="intro">Please seed your universe</div>
 <div class="griddisplay">
     <form action="${startPage}" method="get">
-        <input type="hidden" name="rows" value="3"/>
-        <input type="hidden" name="columns" value="3"/>
+        <input type="hidden" name="rows" value="6"/>
+        <input type="hidden" name="columns" value="6"/>
         <table id="grid">
             <c:forEach begin="0" var="row" end="2">
                 <tr>
